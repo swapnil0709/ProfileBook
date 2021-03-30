@@ -1,0 +1,21 @@
+.nav {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+
+  background-color: #202125;
+  .logo {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+    flex: 8;
+    color: white;
+    text-decoration: none;
+  }
+  .create {
+    font-size: 1.5rem;
+    flex: 1;
+    color: white;
+    text-decoration: none;
+  }
+}
